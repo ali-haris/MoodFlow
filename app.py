@@ -99,10 +99,10 @@ if 'dynamic_tags' not in st.session_state:
     st.session_state.dynamic_tags = {}
 
 
-QLOO_API_KEY = st.secrets("QLOO_KEY")
+QLOO_API_KEY = st.secrets["QLOO_KEY"]
 QLOO_BASE_URL = "https://hackathon.api.qloo.com/v2/insights"
 
-OPENAI_API_KEY = st.secrets("OPENAI_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_KEY"]
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
