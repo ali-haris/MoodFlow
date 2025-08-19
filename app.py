@@ -110,7 +110,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 def get_available_qloo_tags():
     """Get a comprehensive list of available Qloo tags for dynamic mapping"""
     # This is a more comprehensive list of available Qloo tags
-    # In a production environment, you might want to fetch this dynamically from Qloo API
+
     return {
         "movie_genres": [
             "urn:tag:genre:media:action", "urn:tag:genre:media:adventure", "urn:tag:genre:media:animation",
