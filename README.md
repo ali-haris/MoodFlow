@@ -138,24 +138,14 @@ MoodFlow follows a fully dynamic, AI-driven pipeline that adapts to each user’
 - Goes beyond static recommendations  
 - Uses LLMs for reasoning, not just text generation  
 - Demonstrates real-world AI + UX integration  
-- Combines psychology, ML, and content intelligence  
-
----
-
-## ⚙️ Dev Environment
-
-### 🐳 Dev Container Setup
-
-{
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postAttachCommand": "streamlit run app.py"
-}
-This setup ensures a consistent development environment with all dependencies ready to go.
-
+- Combines psychology, ML, and content intelligence
+  
 ### ▶️ Run Locally
 
 `pip install -r requirements.txt`
 `streamlit run app.py`
+
+---
 
 ## 🔮 Future Enhancements
 
