@@ -141,11 +141,11 @@ MoodFlow follows a fully dynamic, AI-driven pipeline that adapts to each user’
 - Combines psychology, ML, and content intelligence  
 
 ---
+
 ## ⚙️ Dev Environment
 
 ### 🐳 Dev Container Setup
 
-```json
 {
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "postAttachCommand": "streamlit run app.py"
@@ -156,7 +156,6 @@ This setup ensures a consistent development environment with all dependencies re
 
 `pip install -r requirements.txt`
 `streamlit run app.py`
-
 
 ## 🔮 Future Enhancements
 
