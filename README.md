@@ -5,8 +5,7 @@
 **Goal:** Build an AI-powered application that uses Qloo’s API in a novel way  
 **Focus:** Emotion-aware discovery using large language models 
 
-🔗 **Live App:** https://moodflow.streamlit.app  
-🔗 **GitHub Repository:** https://github.com/ali-haris/MoodFlow  
+🔗 **Live App:** https://moodflow.streamlit.app
 
 ---
 
